@@ -1,4 +1,4 @@
-# Synthetic-Medical-Data-Generation
+# Synthetic Medical Data Generation using Diffusion Models
 
 **Author:** Shriya Chepur, MS in Artificial Intelligence  
 **Email:** shriyachepur@gmail.con
