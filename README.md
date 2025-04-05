@@ -1,8 +1,7 @@
 # Synthetic-Medical-Data-Generation
 
-**Author:** Shriya Chepur  
-**Course:** IDAI 780, MS in Artificial Intelligence  
-**Email:** sc9422@rit.edu
+**Author:** Shriya Chepur, MS in Artificial Intelligence  
+**Email:** shriyachepur@gmail.con
 
 ---
 
