@@ -13,9 +13,8 @@
 3. [Environment Setup and Dependencies](#environment-setup-and-dependencies)
 4. [Data Preparation](#data-preparation)
 5. [Training and Testing](#training-and-testing)
-6. [Evaluation and Results](#evaluation-and-results)
-7. [Project Figure](#project-figure)
-8. [References and Acknowledgements](#references-and-acknowledgements)
+6. [Results](#evaluation-and-results)
+7. [References and Acknowledgements](#references-and-acknowledgements)
 
 ---
 
@@ -69,9 +68,8 @@ Synthetic_Data_Generation/
 ### Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd Synthetic_Data_Generation
-
+   git clone https://github.com/shriyachepur/Synthetic-Medical-Data-Generation
+   
 
 ## Data Preparation
 The dataset is a subsection of the NIH Chest X-ray collection. It includes images labeled with either ”infiltration” or ”no finding,” representing two diagnostic categories. The
