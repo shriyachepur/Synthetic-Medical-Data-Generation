@@ -100,9 +100,19 @@ subset consists of approximately 40,000 images around 20,000 instances for each 
 
 Denoising Diffusion Probabilistic Models (DDPMs) are a class of generative models that transform pure noise into realistic images through an iterative, learned denoising process. The core algorithm operates in two stages: a forward diffusion process that progressively adds Gaussian noise to an image over many timesteps, and a reverse diffusion process in which a neural network (typically a U-Net) predicts and removes the noise at each timestep. By training the network to minimize the difference between the predicted and the actual noise, the model learns to effectively reverse the corruption, ultimately generating new images from random noise.
 
+<p align="center">
+  <img src="figures/fine_tuning.png" alt="Fine-Tuning" width="600" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="figures/image_generation.png" alt="Image Generation" width="200" />
+</p>
+
+<p align="center">
+  <em><strong>Figure 1:</strong> Fine Tuning</em>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em><strong>Figure 2:</strong> Image Generation during Diffusion Process</em>
+</p>
 
 
-| ![Fine-Tuning](figures/fine_tuning.png) | ![Image Generation](figures/image_generation.png) | 
 
 - The diffusion model (DDPM) was fine-tuned using the script `ddpm.ipynb`.  
   - Chest X-ray images were first resized to 32×32 pixels (to match the pre-trained model input) and normalized to the range [-1, 1].  
